@@ -2,7 +2,7 @@
   "name": "@gajaguar/decimal",
   "version": "0.1.0",
   "description": "Lightweight tool for float number treatment in javascrtipt.",
-  "private": true,
+  "private": false,
   "keywords": [],
   "homepage": "https://github.com/gajaguar/decimal#readme",
   "bugs": {
