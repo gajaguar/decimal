@@ -1,1 +1,1 @@
-console.log('Yeah! It works.')
+export * from './decimal'
