@@ -7,7 +7,7 @@ export class Decimal {
    * @param base - Base value.
    * @param positions - Quantity of decimal places.
    */
-  constructor(base: number, positions: number) {
+  constructor(base: number | string, positions: number | string) {
     this.base = Number(base)
     this.positions = Math.abs(Number(positions))
   }
