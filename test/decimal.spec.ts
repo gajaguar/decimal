@@ -40,4 +40,12 @@ describe('Decimal', () => {
 
     expect(result).toBe(0.001)
   })
+
+  it('can execute `isDecimal` static method', () => {
+    const func = Decimal.isDecimal
+
+    const result = typeof func
+
+    expect(result).toMatch('function')
+  })
 })
