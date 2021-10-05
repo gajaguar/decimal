@@ -1,6 +1,9 @@
+import { isDecimal } from './is-decimal'
+
 export class Decimal {
-  base: number
-  positions: number
+  private base: number
+  private positions: number
+  static isDecimal = isDecimal
 
   /**
    * Class representing a decimal number.
