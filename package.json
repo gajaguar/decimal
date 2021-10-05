@@ -1,6 +1,6 @@
 {
   "name": "@gajaguar/decimal",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lightweight tool for float number treatment in javascrtipt.",
   "private": false,
   "keywords": [],
