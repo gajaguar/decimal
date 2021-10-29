@@ -4,7 +4,7 @@ import { times } from './times'
 export class Decimal {
   base: number
   positions: number
-  times = times
+  static times = times
   static isDecimal = isDecimal
 
   /**
