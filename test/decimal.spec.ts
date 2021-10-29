@@ -33,12 +33,12 @@ describe('Decimal', () => {
     expect(result).toBe(0.1)
   })
 
-  it('should set `positions` to 3 if it not specified', () => {
+  it('should set `positions` to 0 if it not specified', () => {
     const decimal: Decimal = new Decimal(1)
 
     const result = Number(decimal)
 
-    expect(result).toBe(0.001)
+    expect(result).toBe(1)
   })
 
   it('can execute `isDecimal` static method', () => {
