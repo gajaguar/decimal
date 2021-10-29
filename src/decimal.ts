@@ -1,10 +1,10 @@
 import { isDecimal } from './is-decimal'
-import { times } from './times'
+import { multiply } from './multiply'
 
 export class Decimal {
   base: number
   positions: number
-  static times = times
+  static multiply = multiply
   static isDecimal = isDecimal
 
   /**
