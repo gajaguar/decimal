@@ -48,4 +48,13 @@ describe('Decimal', () => {
 
     expect(result).toMatch('function')
   })
+
+  it('can execute `times` method', () => {
+    const a = new Decimal(1)
+    const func = a.times
+
+    const result = typeof func
+
+    expect(result).toMatch('function')
+  })
 })
